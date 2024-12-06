@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    background-color: #1f2320;
+    
+    width: 100%;
+}
+
+#logo {
+    float: left;
+    height: 70px;
+}
+
+#logo img {
+    height: 50px;
+}
+
+#navitems {
+    float: right;
+    line-height: 70px; 
+}
+
+#navitems a {
+    margin-right: 30px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+
+#navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    font-size: 90px;
+    margin-top: 50px;
+    
+}
+#serviceH1{
+    text-align: center;
+}
+
+.card {
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    display: inline-block;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.card img, .card h3, .card p {
+
+    top: 50%;
+    left: 50%;
+}
+
+
